@@ -1,0 +1,16 @@
+{
+  "name": "component-utils",
+  "version": "0.0.0",
+  "authors": [
+    "Josh Marchán <sykopomp@sykosomatic.org>"
+  ],
+  "description": "Utilities for can.Component users.",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "can.component",
+    "canjs"
+  ],
+  "license": "MIT"
+}
