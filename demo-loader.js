@@ -11,7 +11,9 @@
  * loading the demo directly from a CDN that serves the committed code).
  */
 if (window.System) {
-	System.import("demo/demo");
+	System.import("@config").then(function() {
+		System.import("demo/demo");
+	});
 } else {
 	var link = document.createElement("link");
 	link.href = "dist/demo.css";
